@@ -1,0 +1,22 @@
+# Environment/configuration
+.env
+.env.*
+!.env.example
+
+# Local database/config files
+config/database.php
+
+# Uploaded user files
+public/uploads/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
